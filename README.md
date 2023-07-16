@@ -2,7 +2,6 @@
 
 
 A guide for installing macOS Big Sur on HP Pavilion x360 14 using OpenCore.
-![](Images/Laptop.png)
 ![](Images/About.png)
 
 
