@@ -6,7 +6,7 @@ A guide for installing macOS Big Sur on HP Pavilion x360 14 using OpenCore.
 
 
 # Laptop's Hardware 
-- <b>CPU</b>: [Intel i5 10210U](https://ark.intel.com/content/www/id/id/ark/products/91157/intel-core-i3-6006u-processor-3m-cache-2-00-ghz.html) Quad-Core CPU 2.1Ghz (Ice Lake-U)
+- <b>CPU</b>: [Intel i5 10210U](https://www.intel.co.id/content/www/id/id/products/sku/195436/intel-core-i510210u-processor-6m-cache-up-to-4-20-ghz/specifications.html) Quad-Core CPU 2.1Ghz (Comet Lake-U)
 - <b>GPU</b>: Intel UHD 630 Graphics 
 - <b>Storage</b>: 512GB WD SN520 NVME PCIe SSD
 - <b>RAM</b>: 16 GB DDR4 2666MHz
@@ -21,7 +21,7 @@ A guide for installing macOS Big Sur on HP Pavilion x360 14 using OpenCore.
 Everything Works 
 
 # What's Not Working?
-Touchscreen and Fingerprint
+Touchscreen (Had to be disabled so fingerprint works good) and Fingerprint
 
 # Bugs
 - ?

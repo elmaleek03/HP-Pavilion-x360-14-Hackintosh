@@ -26,7 +26,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-dGPU-Off.aml</string>
 			</dict>
@@ -34,7 +34,7 @@
 				<key>Comment</key>
 				<string>SSDT-TPL1-DISABLE.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-TPL1-DISABLE.aml</string>
 			</dict>
@@ -42,7 +42,7 @@
 				<key>Comment</key>
 				<string>SSDT-PS2.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-PS2.aml</string>
 			</dict>
@@ -50,7 +50,7 @@
 				<key>Comment</key>
 				<string>SSDT-GPI0.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-GPI0.aml</string>
 			</dict>
@@ -74,7 +74,7 @@
 				<key>Comment</key>
 				<string>SSDT-I2C0.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-I2C0.aml</string>
 			</dict>
@@ -82,7 +82,7 @@
 				<key>Comment</key>
 				<string>SSDT-RTCAWAC.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-RTCAWAC.aml</string>
 			</dict>
@@ -220,7 +220,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>X09TSQ==</data>
 				<key>Limit</key>
@@ -250,7 +250,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>X1ExQwA=</data>
 				<key>Limit</key>
@@ -280,7 +280,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>X1ExRAA=</data>
 				<key>Limit</key>
@@ -310,7 +310,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>R1BSVwI=</data>
 				<key>Limit</key>
@@ -451,7 +451,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>CQClPg==</data>
+				<data>CQCbPg==</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
 				<key>enable-hdmi20</key>
@@ -942,6 +942,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2C</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2CSynaptics.kext</string>
+				<key>Comment</key>
+				<string>VoodooI2CSynaptics.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooI2CSynaptics</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
